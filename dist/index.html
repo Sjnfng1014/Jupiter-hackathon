@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="/index.6d0d008b.css">
+		<style>
+			#a1 {
+			    float: left;
+			    color:#000000;
+				line-height: 60px;
+				font-size: 20px;
+				width: 60px;
+				background: cadetblue;
+				text-align: center;
+				text-decoration: none;
+			}
+		
+</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-ipfs with lit</title>
+
+    <link rel="shortcut icon" href="/favicon.5b5d97fb.ico">
+    <script defer="" src="/index.5cb7de60.js"></script>
+  </head>
+  <body class="montserrat f5">
+    <a id="a1" href="/chat.html">记账本</a>
+    <div id="cac">
+        <h2>计算器</h2>
+        <div class="c_show">
+            <input type="text" class="s_text" onfocus="this.blur();" value="0" id="result">
+        </div>
+        <div class="c_key"> 
+            <ul>
+                <li onclick="command(7);">7</li>
+                <li onclick="command(8);">8</li>
+                <li onclick="command(9);">9</li>
+                <li class="c_tool" onclick="del('j')">←</li>
+                <li class="c_tool" onclick="clearzero('j')">c</li>
+ 
+                <li onclick="command(4);">4</li>
+                <li onclick="command(5);">5</li>
+                <li onclick="command(6);">6</li>
+                <li class="c_tool" onclick="tools('*','g')">×</li>
+                <li class="c_tool" onclick="tools('/','g')">÷</li>
+ 
+                <li onclick="command(1);">1</li>
+                <li onclick="command(2);">2</li>
+                <li onclick="command(3);">3</li>
+                <li class="c_tool" onclick="tools('+','g');">+</li>
+                <li class="c_tool" onclick="tools('-','g');">-</li>
+                <li onclick="command(0);">0</li>
+                <li onclick="command('two 0');">00</li>
+                <li onclick="dot('.')">.</li>
+                <li class="c_tool" onclick="tools('%','g');">%</li>
+                <li class="c_result" onclick="equal('j');">=</li>
+            </ul>
+        </div>
+    </div>
+  </body>
+</html>
